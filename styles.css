@@ -1,0 +1,208 @@
+/* Reset some default styles for the body and headings */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section{
+    padding: 100px 0;
+    min-height: 100vh;
+    background-color: #419197;
+}
+
+/* Apply styles to the header and navigation */
+header {
+    background-color:#12486B;
+    color: black;
+    padding: 20px 0;
+    text-align: end;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Apply styles to the main container */
+.container {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+/* Style the "About" section and photo */
+#about-photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #419197;
+    padding: 40px;
+}
+
+#about {
+    width: 60%;
+    color: black;
+}
+
+.align{
+    display: block;
+    align-items: flex-start;
+}
+#photo {
+    width: 20%;
+}
+#namee{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+#cs{
+    padding-bottom: 20px;
+}
+#photo img {
+    color: white;
+    max-width: 100%;
+    height: auto;
+    padding-left:90px;
+    /* margin-left: 30px; */
+    /* border-radius: 50%; */
+}
+
+/* Style the "Portfolio" section */
+#portfolio {
+    background-color: #12486B;
+    padding: 40px;
+    /*margin-top: 40px;  Add space after the "Portfolio" section */
+    display: flex; /* Use flexbox for centering */
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+.niproject{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.centered {
+    text-align: center;
+}
+
+#headdd{
+    padding-top: 50px;
+}
+#headd, #contactss{
+    font-size: 50px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#defi{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+/* Style the project sections */
+.project {
+    margin-bottom: 30px;
+    /* text-align: center; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+    
+    .btn {
+        display: block; /* Change from inline-block to block */
+        text-align: center; /* Center the text horizontally */
+        padding: 10px 10px; /* Remove left and right padding, keeping top and bottom padding */
+        background-color: #d6cccc;
+        color: #1d1a1a;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: fit-content; /* Allow the button to adjust its width to its content */
+        margin: 0 auto; /* Center the button horizontally within its container */
+    }
+
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Style the "Contacts" section */
+#contacts.centered {
+    color: black;
+    text-align: center;
+   /* margin-top: 40px; Add space after the "Contacts" section */
+}
+
+.contact-details {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    
+    
+}
+
+.contact-details p {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 18px; /* Adjust font size */
+    color: black;
+
+}
+
+.contact-details p a {
+    
+    color: white;
+}
+
+/* Style the footer */
+footer {
+    background-color: #12486B;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add a hover effect for links */
+a:hover {
+    color: #ff6600;
+    color: white;
+
+}
+.social{
+    padding-top: 50px;
+    padding: 10px;
+}
+.social1{
+    padding: 20px;
+}
+.skill{
+    padding-bottom: 160px;
+}
